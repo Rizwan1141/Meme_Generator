@@ -34,13 +34,45 @@ body {
 }
 
 .my-meme-img {
+    width: 220px;
+} 
+
+.container {
     position: relative;
     display: inline-block;
+    width: 225px;
     margin: 5px;
-    width: 220px;
     border-radius: 4px;
+    padding: 0px;
     border: 3px solid white;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 220px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(226, 99, 99);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .meme-text {
     width: 150px;

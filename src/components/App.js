@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import '../styles/index.css'
 import MemeItem from './MemeItem'
-import { Form, FormControl, FormGroup, FormLabel, ControlLabel } from 'react-bootstrap'
+import { Form, FormControl, FormGroup, FormLabel } from 'react-bootstrap'
 import MyMemes from './MyMemes'
 
 class App extends Component {
