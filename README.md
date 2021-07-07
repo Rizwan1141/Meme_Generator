@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Build Status](https://dev.azure.com/rizwanbashir91/Integrating%20GitHub%20with%20Azure%20PipeLine%20MemeGenerator/_apis/build/status/Rizwan1141.Meme_Generator?branchName=master)](https://dev.azure.com/rizwanbashir91/Integrating%20GitHub%20with%20Azure%20PipeLine%20MemeGenerator/_build/latest?definitionId=10&branchName=master)
+
+Add an Azure Pipelines status badge
+
 ## Available Scripts
 
 In the project directory, you can run:
